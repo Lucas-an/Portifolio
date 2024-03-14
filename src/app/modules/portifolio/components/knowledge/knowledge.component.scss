@@ -1,7 +1,7 @@
 :host {
   margin-top: 25px;
   padding: 25px 0;
-  background: var(--black-010);
+  background: var(--black);
 
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@
     li {
       width: 50px;
       height: 50px;
-      background: var(--black);
+      background: #005eff;
 
       display: flex;
       justify-content: center;
