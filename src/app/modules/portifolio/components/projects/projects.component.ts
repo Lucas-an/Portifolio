@@ -39,7 +39,7 @@ export class ProjectsComponent {
     },
     {
       src: 'assets/img/projects/logo.svg',
-      alt: "Projeto Vida FullStack",
+      alt: "Projeto Homes",
       title: 'Vida FullStack2',
       width: '100px' ,
       height: '51px',
@@ -53,7 +53,7 @@ export class ProjectsComponent {
     },
     {
       src: 'assets/img/projects/lista-de-tarefas.png',
-      alt: "Projeto Vida FullStack",
+      alt: "Projeto Lista de tarefas",
       title: 'Vida FullStack3',
       width: '100px' ,
       height: '51px',
@@ -62,6 +62,20 @@ export class ProjectsComponent {
         {
           name: 'Conheça o Blog',
           href: 'https://vidafullstack.com.br',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/theme_dark.gif',
+      alt: "Projeto Vida FullStack",
+      title: 'DarkTheme',
+      width: '120px' ,
+      height: '80px',
+      description: '<p>Explore o fascinante mundo do desenvilvimento web no meu blog dedicado exclusivamente ao ecossistema Anguar, Front end </p>',
+      links: [
+        {
+          name: 'Conheça o Projeto',
+          href: 'https://theme-dark-angular.netlify.app/',
         },
       ],
     },
