@@ -24,12 +24,12 @@ export class ProjectsComponent {
 
   public arrayProjects = signal <IProjects[]> ([
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/healty recipe.svg',
       alt: "Projeto Healty Recipe",
       title: 'Healty Recipe',
       width: '100px' ,
       height: '51px',
-      description: '<p>Explore o fascinante mundo do desenvilvimento web no meu blog dedicado exclusivamente ao ecossistema Anguar, Front end </p>',
+      description: '<p>O projeto Healthy Recipe: uma plataforma digital dedicada a promover hábitos alimentares saudáveis. </p>',
       links: [
         {
           name: 'Conheça o projeto',
@@ -38,7 +38,7 @@ export class ProjectsComponent {
       ],
     },
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/logo.svg',
       alt: "Projeto Vida FullStack",
       title: 'Vida FullStack2',
       width: '100px' ,
@@ -46,18 +46,18 @@ export class ProjectsComponent {
       description: '<p>Explore o fascinante mundo do desenvilvimento web no meu blog dedicado exclusivamente ao ecossistema Anguar, Front end </p>',
       links: [
         {
-          name: 'Conheça o Blog',
+          name: 'Conheça o projeto',
           href: 'https://vidafullstack.com.br',
         },
       ],
     },
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/lista-de-tarefas.png',
       alt: "Projeto Vida FullStack",
       title: 'Vida FullStack3',
       width: '100px' ,
       height: '51px',
-      description: '<p>Explore o fascinante mundo do desenvilvimento web no meu blog dedicado exclusivamente ao ecossistema Anguar, Front end </p>',
+      description: '<p class="preto">Explore o fascinante mundo do desenvilvimento web no meu blog dedicado exclusivamente ao ecossistema Anguar, Front end </p>',
       links: [
         {
           name: 'Conheça o Blog',
